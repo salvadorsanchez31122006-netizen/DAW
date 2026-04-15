@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE listacursos [
+    <!ELEMENT listacursos (ursos)+>
+    <!ELEMENT cursos (alumno+)>
+    
+    <!ELEMENT alumno (nombre, apellido, seundoapellido?)>
+    <!ATTLIST alumno di ID #REQUIRED>
+
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT apellido (#PCDATA)>
+    <!ELEMENT segundoapellido (#PCDATA)>
+    
+    <!ELEMENT listasignaturas (asignatura+)>
+
+    <!ELEMENT asignatura (nombre, profesor)>
+    <!ATTLIST asignatura codigo ID #REQUIRED>
+
+    <!ELEMENT profesor (nombre, apellido, segundoapellido?)>
+    <!ATTLIST profesor NRP ID #REQUIRED>
+    
+    ]>
+
+  <!---  <!DOCTYPE listacursos [
+    <!ELEMENT listacursos (curso)+>
+    <!ELEMENT curso (alumnos)+>
+    <!ELEMENT alumnos (DNI, nombre, apellido, segundopellido?, listaasignaturas+)>
+    <!ELEMENT DNI (#PCDATA)>
+    <!ELEMENT apellido (#PCDATA)>
+    <!ELEMENT segundoapellido (#PCDATA)>
+    <!ELEMENT listaasignaturas (nombre, profesor)>  
+    <!ATTLIST listaasignaturas codigo ID #REQUIRED>
+    <!ELEMENT nombre (#PCDATA)> 
+    <!ELEMENT profesor (NRP, nombrep, apellidop, segundoapellidop?)>
+    <!ELEMENT NRP (#PCDATA)>
+    <!ELEMENT nombrep (#PCDATA)>
+    <!ELEMENT apellidop (#PCDATA)>
+    <!ELEMENT segundoapellidop (#PCDATA)>   
+
+
+    ]> -->  

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE listaPedidos [
+<!ELEMENT listaPedidos(pedido)*>
+<!ELEMENT pedido (cantidad,peso?)>
+<!ATTLIST pedido numero-serie ID #REQUIRED>
+<!ELEMENT  cantidad (#PCDATA)>
+<!ELEMENT peso (#PCDATA)>
+
+]>
+
+<listaPedidos>
+
+    <pedido numero-serie="abs">
+        <cantidad>89</cantidad>
+        <peso>45</peso>
+    </pedido>
+</listaPedidos>

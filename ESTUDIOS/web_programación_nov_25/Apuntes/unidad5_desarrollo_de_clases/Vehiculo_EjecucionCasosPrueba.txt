@@ -1,0 +1,117 @@
+INFORME GLOBAL DE LA FLOTA DE VEHÍCULOS
+---------------------------------------
+Distancia total recorrida por toda la flota:  0,00
+Combustible total consumido por toda la flota:  0,00
+Númeo de vehículos de la flota con el motor encendido: 0
+
+
+PRUEBAS CON EL VEHÍCULO v1
+--------------------------
+Fabricación v1(100,100): Error: Parámetros de creación del vechículo inválidos. Se crea el vehículo con los valores por defecto.
+                         Motor: apagado   - Depósito:   0,00 - Dist:     0,00 - Consumo:     0,00
+Arrancar:                Error: Depósito vacío. Se intentó arrancar sin combustible suficiente.
+                         Motor: apagado   - Depósito:   0,00 - Dist:     0,00 - Consumo:     0,00
+Repostar 5 litros:       Vehículo respostado sin error.
+                         Motor: apagado   - Depósito:   5,00 - Dist:     0,00 - Consumo:     0,00
+Arrancar:                Motor arrancado sin error.
+                         Motor: arrancado - Depósito:   4,98 - Dist:     0,00 - Consumo:     0,02
+Recorrer 10 km:          Trayecto recorrido sin error.
+                         Motor: arrancado - Depósito:   4,48 - Dist:    10,00 - Consumo:     0,52
+Recorrer -50 km:         Error: Se intentó realizar un trayecto negativo.
+                         Motor: arrancado - Depósito:   4,48 - Dist:    10,00 - Consumo:     0,52
+Recorrer 5 km:           Trayecto recorrido sin error.
+                         Motor: arrancado - Depósito:   4,23 - Dist:    15,00 - Consumo:     0,77
+Apagar:                  Motor apagado sin error.
+                         Motor: apagado   - Depósito:   4,23 - Dist:     0,00 - Consumo:     0,00
+Arrancar:                Motor arrancado sin error.
+                         Motor: arrancado - Depósito:   4,21 - Dist:     0,00 - Consumo:     0,02
+Arrancar:                Error: El motor ya se encuentra arrancado.
+                         Motor: arrancado - Depósito:   4,21 - Dist:     0,00 - Consumo:     0,02
+Repostar 5 litros:       Error: Se intentó repostar con el motor encendido. No se ha repostado.
+                         Motor: arrancado - Depósito:   4,21 - Dist:     0,00 - Consumo:     0,02
+Recorrer 500 km:         Error: No se ha podido finalizar el trayecto completamente. Depósito vacío. Han faltado por recorrer 415,80 km.
+                         Motor: apagado   - Depósito:   0,00 - Dist:     0,00 - Consumo:     0,00
+Recorrer 500 km:         Error: Se intentó realizar un trayecto con el motor apagado. No se ha avanzado.
+                         Motor: apagado   - Depósito:   0,00 - Dist:     0,00 - Consumo:     0,00
+Apagar:                  Error: El motor ya se encuentra apagado.
+                         Motor: apagado   - Depósito:   0,00 - Dist:     0,00 - Consumo:     0,00
+Repostar 300 litros:     Error: Depósito lleno. Se ha desbordado el combustible en 250.0 litros.
+                         Motor: apagado   - Depósito:  50,00 - Dist:     0,00 - Consumo:     0,00
+Recorrer 500 km:         Error: Se intentó realizar un trayecto con el motor apagado. No se ha avanzado.
+                         Motor: apagado   - Depósito:  50,00 - Dist:     0,00 - Consumo:     0,00
+Arrancar:                Motor arrancado sin error.
+                         Motor: arrancado - Depósito:  49,98 - Dist:     0,00 - Consumo:     0,02
+Recorrer 100 km:         Trayecto recorrido sin error.
+                         Motor: arrancado - Depósito:  44,98 - Dist:   100,00 - Consumo:     5,02
+Apagar:                  Motor apagado sin error.
+                         Motor: apagado   - Depósito:  44,98 - Dist:     0,00 - Consumo:     0,00
+
+INFORME DEL VEHÍCULO v1
+-----------------------
+Capacidad del depósito: 50,00
+Consumo medio del vehículo:  5,00
+Distancia recorrida por el vehículo en el período de encendido actual:  0,00
+Combustible total consumido por el vehículo en el período de encendido actual:  0,00
+Distancia total recorrida por el vehículo desde su fabricación: 199,20
+Combustible total consumido por el vehículo desde su fabricación: 10,02
+
+INFORME GLOBAL DE LA FLOTA DE VEHÍCULOS
+---------------------------------------
+Distancia total recorrida por toda la flota: 199,20
+Combustible total consumido por toda la flota: 10,02
+Númeo de vehículos de la flota con el motor encendido: 0
+
+
+PRUEBAS CON EL VEHÍCULO v2
+--------------------------
+Fabricación v2 (3,60):   Vehículo creado sin error.
+                         Motor: apagado   - Depósito:   0,00 - Dist:     0,00 - Consumo:     0,00
+Repostar 5 litros:       Vehículo respostado sin error.
+                         Motor: apagado   - Depósito:   5,00 - Dist:     0,00 - Consumo:     0,00
+Arrancar:                Motor arrancado sin error.
+                         Motor: arrancado - Depósito:   4,98 - Dist:     0,00 - Consumo:     0,02
+Recorrer 10 km:          Trayecto recorrido sin error.
+                         Motor: arrancado - Depósito:   4,68 - Dist:    10,00 - Consumo:     0,32
+
+INFORME DEL VEHÍCULO v2
+-----------------------
+Capacidad del depósito: 60,00
+Consumo medio del vehículo:  3,00
+Distancia recorrida por el vehículo en el período de encendido actual: 10,00
+Combustible total consumido por el vehículo en el período de encendido actual:  0,32
+Distancia total recorrida por el vehículo desde su fabricación: 10,00
+Combustible total consumido por el vehículo desde su fabricación:  0,32
+
+INFORME GLOBAL DE LA FLOTA DE VEHÍCULOS
+---------------------------------------
+Distancia total recorrida por toda la flota: 209,20
+Combustible total consumido por toda la flota: 10,34
+Númeo de vehículos de la flota con el motor encendido: 1
+
+
+PRUEBAS CON EL VEHÍCULO v3
+--------------------------
+Fabricación v3 ():       Vehículo creado sin error.
+                         Motor: apagado   - Depósito:   0,00 - Dist:     0,00 - Consumo:     0,00
+Repostar 20 litros:      Vehículo repostado sin error.
+                         Motor: apagado   - Depósito:  20,00 - Dist:     0,00 - Consumo:     0,00
+Arrancar:                Motor arrancado sin error.
+                         Motor: arrancado - Depósito:  19,98 - Dist:     0,00 - Consumo:     0,02
+Recorrer 100 km:         Trayecto recorrido sin error.
+                         Motor: arrancado - Depósito:  14,98 - Dist:   100,00 - Consumo:     5,02
+
+
+INFORME DEL VEHÍCULO v3
+-----------------------
+Capacidad del depósito: 50,00
+Consumo medio del vehículo:  5,00
+Distancia recorrida por el vehículo en el período de encendido actual: 100,00
+Combustible total consumido por el vehículo en el período de encendido actual:  5,02
+Distancia total recorrida por el vehículo desde su fabricación: 100,00
+Combustible total consumido por el vehículo desde su fabricación:  5,02
+
+INFORME GLOBAL DE LA FLOTA DE VEHÍCULOS
+---------------------------------------
+Distancia total recorrida por toda la flota: 309,20
+Combustible total consumido por toda la flota: 15,36
+Númeo de vehículos de la flota con el motor encendido: 2

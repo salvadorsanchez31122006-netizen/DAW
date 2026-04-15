@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <style type="text/css">
+	@import url(base.css);
+	@import url(content.css);
+    </style>
+    <title>Resumen textual alternativo para el vídeo "Clases inmutables."</title>
+  </head>
+  <body>
+<p>Se inicia con el título: Clases inmutables.</p>
+<p>Una clase inmutable es aquella cuyas instancias, una vez inicializadas, no pueden modificarse.
+Por ejemplo: las clases envoltorio (como Character o Integer) o la clase String son inmutables.
+Se muestra un ejemplo de qué sucede en la memoria cuando hacemos asignaciones en instancias de estas clases.</p>
+<p>Supongamos que en un programa declaramos una variable miVar de tipo String.
+Se ubicará en algún sitio de la memoria, supongamos por ejemplo 0x001, podría ser cualquier otra.</p>
+<p>Ahora, al ejecutarse la instrucción: miVar = “Hola”; , miVar hará referencia (apuntará) a la dirección donde está el String “Hola”.
+La instrucción: miVar = miVar + “Antonio”; provocará que miVar haga referencia a la dirección donde está el String “Hola Antonio”. Y ahora, el espacio de memoria 0x00F queda marcado para que el recolector de basura lo elimine cuando se estime oportuno.</p>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+﻿package organizacion_sentencias;
+
+/**
+ *
+ * Organización de sentencias secuencial
+ */
+public class OrganizacionSentencias1 {
+
+    public static void main(String[] args) {
+       
+        System.out.println ("Organización secuencial de sentencias");
+               
+        int dia=12;
+        System.out.println ("El día es: " + dia);
+        int mes=11;
+        System.out.println ("El mes es: " + mes);
+        int anio=2011;
+        System.out.println ("El anio es: " + anio);
+        
+        
+    }
+}

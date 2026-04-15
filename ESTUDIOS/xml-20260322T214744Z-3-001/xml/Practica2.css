@@ -1,0 +1,21 @@
+hardwareCatalog{
+    background-color: #f0f0f0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+hardwareCatalog item{
+    border-radius: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding: 5px;
+    display: block;
+}
+id{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+tipo{
+    color: blue;
+}
+marca{color: green;}
+modelo{ color: purple}
+especificaciones{font-weight: italic;}

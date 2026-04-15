@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tienda>
+    <producto codigo="P01">
+        <nombre>PS1</nombre>
+        <descripcion>CONSOLA</descripcion>
+        <precio>100€</precio>
+        <categoria>VIDEOJUEGOS</categoria>
+        <disponibilidad>STOCK</disponibilidad>
+        <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/PSX-Console-wController.png/1280px-PSX-Console-wController.png</imagen>
+    </producto>
+  <producto codigo="P02">
+        <nombre>PS2</nombre>
+        <descripcion>CONSOLA</descripcion>
+        <precio>120€</precio>
+        <categoria>VIDEOJUEGOS</categoria>
+        <disponibilidad>STOCK</disponibilidad>
+        <imagen>https://m.media-amazon.com/images/I/61qkCrqsaYL.jpg</imagen>
+    </producto>
+    <producto codigo="P03">
+        <nombre>PS3</nombre>
+        <descripcion>CONSOLA</descripcion>
+        <precio>300€</precio>
+        <categoria>VIDEOJUEGOS</categoria>
+        <disponibilidad>STOCK</disponibilidad>
+        <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Sony-PlayStation-3-2001A-wController-L.jpg/1280px-Sony-PlayStation-3-2001A-wController-L.jpg</imagen>
+    </producto>
+    <producto codigo="P04">
+        <nombre>PS4</nombre>
+        <descripcion>CONSOLA</descripcion>
+        <precio>400€</precio>
+        <categoria>VIDEOJUEGOS</categoria>
+        <disponibilidad>STOCK</disponibilidad>
+        <imagen></imagen>
+    </producto>
+    <producto codigo="P05">
+        <nombre>PS5</nombre>
+        <descripcion>CONSOLA</descripcion>
+        <precio>600€</precio>
+        <categoria>VIDEOJUEGOS</categoria>
+        <disponibilidad>STOCK</disponibilidad>
+        <imagen></imagen>
+    </producto>
+
+
+
+
+
+
+
+
+</tienda>

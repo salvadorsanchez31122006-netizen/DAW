@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pedido[
+    <!ELEMENT pedido (libros, cuadernos, lapices)*>
+    <!ATTLIST libros titulo CDATA #REQUIRED>
+    <!ELEMENT cuadernos (num-hojas)*>
+    <!ELEMENT lapices (numero)+>
+    <!ELEMENT num-hojas (#PCDATA)>
+    <!ELEMENT numero (#PCDATA)>
+    ]>
+<pedido>
+    <libros titulo="elseñor"></libros>
+    <cuadernos><num-hojas></num-hojas></cuadernos>
+    <lapices><numero></numero></lapices>
+</pedido>

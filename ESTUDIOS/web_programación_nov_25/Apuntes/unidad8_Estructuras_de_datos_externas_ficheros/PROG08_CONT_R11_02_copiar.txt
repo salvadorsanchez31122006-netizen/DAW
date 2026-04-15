@@ -1,0 +1,15 @@
+void copia(InputStream fentrada, OutputStream fsalida) {
+        
+        try {
+            int n = 0;
+            
+            byte[] buffer = new byte[256];
+            while((n = fentrada.read(buffer)) >= 0)
+                fsalida.write(buffer,0,n) ;
+            
+            fentrada.close();
+            fsalida.close();
+        } catch(IOException ex){
+            System.out.println(ex.getMessage());
+        }
+}
