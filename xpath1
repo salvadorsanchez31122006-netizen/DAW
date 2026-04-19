@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<students>
+  <student>
+    <name>John Smith</name>
+    <grades>
+      <grade subject="Math">85</grade>
+      <grade subject="Science">92</grade>
+      <grade subject="History">78</grade>
+    </grades>
+  </student>
+  <student>
+    <name>Alice Johnson</name>
+    <grades>
+      <grade subject="Math">90</grade>
+      <grade subject="Science">87</grade>
+      <grade subject="History">92</grade>
+    </grades>
+  </student>
+  <student>
+    <name>Emma Davis</name>
+    <grades>
+      <grade subject="Math">95</grade>
+      <grade subject="Science">88</grade>
+      <grade subject="History">91</grade>
+    </grades>
+  </student>
+</students>
+
+<!--Obtén el nombre de todos los estudiantes.-->
+<!--//name/text()-->
+<!--Encuentra el promedio de calificaciones de todos los estudiantes en Matemáticas (Math).-->
+
+<!--sum(//grade[@subject='Math']) div count (//grade[@subject='Math'])-->
+
+<!--Obtén el elemento <name> de los estudiantes que tienen una calificación de Historia (History) mayor a 80.-->
+
+<!--//student[grades/grade[@subject='History']>80]/name-->

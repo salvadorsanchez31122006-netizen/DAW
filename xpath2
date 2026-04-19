@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <book>
+    <title>XML in Practice</title>
+    <author>Joe Marini</author>
+    <year>2002</year>
+    <price>39.95</price>
+  </book>
+  <book>
+    <title>Learning XPath</title>
+    <author>John Smith</author>
+    <year>2010</year>
+    <price>29.99</price>
+  </book>
+  <book>
+    <title>Advanced XML Techniques</title>
+    <author>Lisa Johnson</author>
+    <year>2015</year>
+    <price>49.99</price>
+  </book>
+</catalog>
+
+<!--Obtén el título de todos los libros.-->
+<!--//title/text()-->
+<!--Encuentra el autor de los libros publicados después de 2005.-->
+<!--//book[year > 2005]/author/text()-->
+<!--Obtén los títulos de los libros escritos por autores cuyo nombre comienza con la letra «J».-->
+<!--//book[starts-with(author , 'J')]/title/text()-->
+<!--Encuentra el elemento <year> del libro cuyo título contiene la palabra ‘XPath’.-->
+<!--//book[contains(title, 'XPath')]/year-->

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<employees>
+  <employee>
+    <name>John Smith</name>
+    <age>35</age>
+    <department>IT</department>
+    <salary>50000</salary>
+  </employee>
+  <employee>
+    <name>Alice Johnson</name>
+    <age>28</age>
+    <department>HR</department>
+    <salary>45000</salary>
+  </employee>
+  <employee>
+    <name>Michael Davis</name>
+    <age>42</age>
+    <department>Finance</department>
+    <salary>60000</salary>
+  </employee>
+  <employee>
+    <name>Sarah Brown</name>
+    <age>31</age>
+    <department>IT</department>
+    <salary>55000</salary>
+  </employee>
+</employees>
+
+<!--Obtén el elemento <name> de todos los empleados del departamento de IT.-->
+<!--//employee[department = 'IT']/name/text()-->
+
+<!--Encuentra la edad promedio de los empleados en el departamento de HR.-->
+
+<!--sum(//employee[department='HR']/age) div count (//employee[department='HR'])-->
+
+<!--Encuentra el salario más alto entre todos los empleados.-->
+
+<!--//salary[not(. < //salary)]-->
+
+<!--Obtén el elemento <name> del empleado más joven.-->
+
+<!--//employee[age = //age[not(.>//age)]]/name-->
+
+<!--Encuentra el nombre de los empleados que tienen un salario mayor a 50000 y pertenecen al departamento de IT.-->
+<!--//employee[salary > 5000 and department = 'IT']/name/text()-->
